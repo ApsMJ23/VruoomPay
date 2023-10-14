@@ -7,7 +7,7 @@ plugins {
 
 android {
     namespace = "com.example.vruoompay"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.example.vruoompay"
@@ -90,4 +90,9 @@ dependencies {
     implementation("androidx.compose.material3:material3")
     implementation("androidx.compose.ui:ui-tooling-preview")
     debugImplementation("androidx.compose.ui:ui-tooling")
+    implementation ("androidx.navigation:navigation-compose:2.4.0-rc01")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.0")
+    implementation("androidx.lifecycle:lifecycle-runtime-compose:2.6.0")
+    implementation("io.coil-kt:coil-compose:2.4.0")
+
 }
